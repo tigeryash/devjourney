@@ -39,6 +39,10 @@ body {
   font-size: clamp(1.493rem, -0.1223rem + 8.0764vw, 12.8rem);
 }
 
+.about-p {
+  text-wrap: pretty;
+}
+
 @media (min-width: 576px) {
   .hero {
     aspect-ratio: 16 / 7;
@@ -53,6 +57,6 @@ body {
 
 @media (min-width: 1280px) {
   .title {
-    font-size: clamp(6.21rem, -0.38rem + 8.2375vw, 12.8rem);
+    font-size: clamp(6.21rem, -0.442rem + 8.315vw, 9.536rem);
   }
 }

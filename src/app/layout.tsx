@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="font-satoshi">
+      <body className="font-satoshi max-w-[1920px] mx-auto">
         <Header />
         {children}
         <Footer />
