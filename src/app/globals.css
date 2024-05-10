@@ -31,3 +31,28 @@ body {
     text-wrap: balance;
   }
 }
+
+.hero {
+  aspect-ratio: 16 / 12;
+}
+.title {
+  font-size: clamp(1.493rem, -0.1223rem + 8.0764vw, 12.8rem);
+}
+
+@media (min-width: 576px) {
+  .hero {
+    aspect-ratio: 16 / 7;
+  }
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: clamp(3.64rem, -0.2857rem + 8.1786vw, 12.8rem);
+  }
+}
+
+@media (min-width: 1280px) {
+  .title {
+    font-size: clamp(6.21rem, -0.38rem + 8.2375vw, 12.8rem);
+  }
+}
